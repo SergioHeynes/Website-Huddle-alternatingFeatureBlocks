@@ -10,6 +10,10 @@
         font-size: 1.6rem;
         font-weight: 700;
         color: $color-black;
+
+        @media only screen and (max-width: $bp-phone) {
+            padding: 1.2rem 4.7rem;
+        }
     }
 
     &--pink {
@@ -20,7 +24,13 @@
         border-radius: 100px;
         box-shadow: .1rem .2rem 1rem #ddd;
         font-size: 1.6rem;
-        background-color: #ff52bf;        
+        background-color: #ff52bf;
+        
+        @media only screen and (max-width: $bp-phone) {
+            padding: 1.6rem 12rem;
+            font-size: 2rem;
+        }
+        
     }
 }
 

@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    margin-bottom: 16rem;
 
     &__try-it-free {
         padding-top: 5rem;
@@ -11,9 +12,20 @@
         padding-right: 8rem;
         padding-left: 8rem;
 
+        @media only screen and (max-width: $bp-phone) {
+            padding-top: 5rem;
+            padding-bottom: 7rem;
+            padding-right: 4rem;
+            padding-left: 4rem;
+        }
+
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    &__try-it-free-logo {
+        width: 38%;
     }
 
     &__build-the-community {
@@ -25,21 +37,55 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media only screen and (max-width: $bp-tab-land) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media only screen and (max-width: $bp-phone) {
+            padding-top: 5rem;
+            padding-bottom: 7rem;
+            padding-right: 4rem;
+            padding-left: 4rem;
+        }
     }
 
     &__build-the-community-text {
         flex: 50%;
         margin-right: 6rem;
+
+        @media only screen and (max-width: $bp-tab-land) {
+            margin-right: 0;
+            margin-bottom: 8rem;
+            text-align: center;
+        }
     }
 
     &__build-the-community-title {
         font-size: 3.7rem;
         font-weight: 700;
         margin-bottom: 2rem;
+
+        @media only screen and (max-width: $bp-tab-land) {
+            margin-bottom: 4rem;
+        }
+
+        @media only screen and (max-width: $bp-phone) {
+            font-size: 5rem;
+        }
     }
 
     &__build-the-community-paragraph {
         margin-bottom: 2rem;
+
+        @media only screen and (max-width: $bp-tab-land) {
+            margin-bottom: 4rem;
+        }
+
+        @media only screen and (max-width: $bp-phone) {
+            font-size: 3.3rem;
+        }
     }
 
     &__build-the-community-image {
