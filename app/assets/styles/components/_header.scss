@@ -1,0 +1,54 @@
+.header {
+    background-color: $color-paleCyan;
+    background-image: url('../../assets/images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    &__try-it-free {
+        padding-top: 5rem;
+        padding-bottom: 7rem;
+        padding-right: 8rem;
+        padding-left: 8rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__build-the-community {
+        padding-top: 5rem;
+        padding-bottom: 7rem;
+        padding-right: 8rem;
+        padding-left: 8rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__build-the-community-text {
+        flex: 50%;
+        margin-right: 6rem;
+    }
+
+    &__build-the-community-title {
+        font-size: 3.7rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+    }
+
+    &__build-the-community-paragraph {
+        margin-bottom: 2rem;
+    }
+
+    &__build-the-community-image {
+        flex: 50%;
+    }
+
+    &__build-the-community-illustration {
+        width: 100%;
+        height: auto;
+    }
+    
+}

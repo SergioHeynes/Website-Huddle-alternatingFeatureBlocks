@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  max-width: 144rem;
+  margin: 0 auto; }
+
+.btn {
+  text-decoration: none; }
+  .btn--white {
+    padding: 1.6rem 7rem;
+    background-color: #FFF;
+    border-radius: 100px;
+    box-shadow: .1rem .2rem 1rem #ddd;
+    font-size: inherit;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000; }
+  .btn--pink {
+    display: inline-block;
+    font-weight: bold;
+    color: #FFF;
+    padding: 1.6rem 5rem;
+    border-radius: 100px;
+    box-shadow: .1rem .2rem 1rem #ddd;
+    font-size: 1.6rem;
+    background-color: #ff52bf; }
+
+.header {
+  background-color: #EBFBFF;
+  background-image: url("../../assets/images/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+  .header__try-it-free {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__build-the-community {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__build-the-community-text {
+    flex: 50%;
+    margin-right: 6rem; }
+  .header__build-the-community-title {
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 2rem; }
+  .header__build-the-community-paragraph {
+    margin-bottom: 2rem; }
+  .header__build-the-community-image {
+    flex: 50%; }
+  .header__build-the-community-illustration {
+    width: 100%;
+    height: auto; }
